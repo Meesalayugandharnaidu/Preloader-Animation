@@ -1,0 +1,42 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  background-color: rgb(255, 255, 255);
+}
+
+span {
+  display: inline-block;
+  width: 70px;
+  height: 70px;
+  border: 15px inset blue;
+  animation: ani 2s linear infinite;
+  border-radius: 100%;
+  position: relative;
+}
+.naidu {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 20px;
+  height: 40px;
+  background: linear-gradient(
+    to right,
+    rgb(16, 255, 235),
+    rgb(99, 0, 228),
+    blue
+  );
+  border-radius: 100px;
+}
+@keyframes ani {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(360deg);
+  }
+}
