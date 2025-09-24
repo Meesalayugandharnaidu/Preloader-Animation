@@ -28,8 +28,10 @@ CSS3 – Styling, gradients, hover effects
 Font Awesome – Icons
 
 📂 Project Structure
-├── index.html   # Main HTML file
-├── style.css    # Styling with CSS
+├── index.html  
+# Main HTML file
+├── style.css   
+# Styling with CSS
 
 📸 Preview
 
